@@ -1,3 +1,6 @@
+made to demonstrate how this can be solved
+https://github.com/Decathlon/vitamin-web/issues/971#issuecomment-1054412470
+
 Front SPA with:
 
 -   Framework: [React](https://github.com/facebook/react) 17.0.2 / Typescript 4.3+
