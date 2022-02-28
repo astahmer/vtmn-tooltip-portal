@@ -1,14 +1,12 @@
-import { Box, Center } from "@chakra-ui/react";
-import { motion } from "framer-motion";
+import { Stack } from "@chakra-ui/react";
+import { ExampleWithCurrentBehavior } from "./ExampleWithCurrentBehavior";
+import { ExampleWithInversionOfControlBehavior } from "./ExampleWithInversionOfControlBehavior";
 
 export const Demo = () => {
     return (
-        <Center h="100%">
-            <motion.div animate={{ rotateX: 360 }} transition={{ duration: 1.5, repeat: Infinity }}>
-                <Box textAlign="center" fontSize="50px">
-                    Ready to go
-                </Box>
-            </motion.div>
-        </Center>
+        <Stack m="auto" spacing="8">
+            <ExampleWithCurrentBehavior />
+            <ExampleWithInversionOfControlBehavior />
+        </Stack>
     );
 };
